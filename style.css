@@ -1,0 +1,42 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #a19494;
+    
+}
+.container {
+    text-align: center;
+}
+.grid {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #a67070;
+    margin: 20px auto;
+}
+button {
+  
+    gap: 20px;
+    background-color: #86bfe1;
+    border-radius: 5px;
+} 
+
+.square {
+    border: 1px solid black;
+}
+#btnNewGrid, #btnClearGrid {
+    border: 2px solid;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    
+}
+
+.btnNewGrid:hover, .btnClearGrid:hover {
+    background-color: bisque;
+}
+
